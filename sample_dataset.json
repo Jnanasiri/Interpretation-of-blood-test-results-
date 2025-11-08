@@ -1,0 +1,57 @@
+[
+  {
+    "barcode": "B001",
+    "name": "Arun Kumar",
+    "age": 34,
+    "gender": "Male",
+    "testType": "Complete Blood Count (CBC)",
+    "hemoglobin": 14.2,
+    "wbcCount": 7200,
+    "plateletCount": 240000,
+    "diagnosis": "Normal blood profile"
+  },
+  {
+    "barcode": "B002",
+    "name": "Divya Ramesh",
+    "age": 29,
+    "gender": "Female",
+    "testType": "Liver Function Test",
+    "hemoglobin": 12.5,
+    "wbcCount": 6800,
+    "plateletCount": 265000,
+    "diagnosis": "Mildly elevated ALT levels"
+  },
+  {
+    "barcode": "B003",
+    "name": "Rahul Sharma",
+    "age": 46,
+    "gender": "Male",
+    "testType": "Lipid Profile",
+    "hemoglobin": 13.8,
+    "wbcCount": 7400,
+    "plateletCount": 230000,
+    "diagnosis": "High LDL Cholesterol"
+  },
+  {
+    "barcode": "B004",
+    "name": "Meera Joseph",
+    "age": 52,
+    "gender": "Female",
+    "testType": "Thyroid Profile",
+    "hemoglobin": 12.0,
+    "wbcCount": 7000,
+    "plateletCount": 250000,
+    "diagnosis": "Hypothyroidism detected"
+  },
+  {
+    "barcode": "B005",
+    "name": "Vikram Singh",
+    "age": 39,
+    "gender": "Male",
+    "testType": "Diabetic Screening",
+    "hemoglobin": 13.9,
+    "wbcCount": 7100,
+    "plateletCount": 245000,
+    "diagnosis": "Elevated fasting glucose levels"
+  }
+]
