@@ -1,0 +1,18 @@
+import tiktoken
+
+encoder = tiktoken.get_encoding("cl100k_base")
+
+prompt = f"""
+You are an AI system that interprets blood reports.
+The barcode of the report is: BR9837746
+
+Use this barcode to fetch the correct report data.
+
+Now answer this query: What disease does he have?
+"""
+
+tokens = encoder.encode(prompt)
+
+print(tokens)
+print("Total tokens:", len(tokens))
+
