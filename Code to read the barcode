@@ -1,0 +1,13 @@
+Code to convert the barcode into an image and to read the barcode which is in image format
+
+pip install pdf2image
+
+from pdf2image import convert_from_path
+from pyzbar.pyzbar import decode
+
+pages = convert_from_path("report.pdf")
+image = pages[0]  # first page
+barcodes = decode(image)
+
+for barcode in barcodes:
+    print("Barcode:", barcode.data.decode("utf-8"))
