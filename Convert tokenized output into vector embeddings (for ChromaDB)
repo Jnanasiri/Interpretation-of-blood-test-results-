@@ -1,0 +1,6 @@
+from sentence_transformers import SentenceTransformer
+
+model = SentenceTransformer('all-MiniLM-L6-v2')
+
+vector = model.encode("BR9837746")  # barcode as a tokenized vector
+print(vector)
