@@ -1,0 +1,18 @@
+PROMPT_TEMPLATE = """
+You are an AI system that interprets blood reports.
+The barcode of the report is: {barcode}
+
+Use this barcode to fetch the correct report data.
+
+Now answer this query: {query}
+"""
+
+def apply_prompt_template(barcode, user_query):
+    prompt = PROMPT_TEMPLATE.format(
+        barcode=barcode,
+        query=user_query
+    )
+    return prompt
+
+final_prompt = apply_prompt_template(barcode_value, "What disease does he have?")
+print(final_prompt)
